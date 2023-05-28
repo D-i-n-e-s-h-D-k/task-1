@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novitech</title>
+    <link rel="stylesheet" href="css/novitech.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"> 
+
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    
+        <div id="header">
+            <img src="Image/logo.png" />
+            <ul>
+                <li><a  href="#">HOME</a></li>
+                <li><a href="Novitech/research.html">RESEARCH</a></li>
+                <li><a href="Novitech/products.html">PRODUCTS</a></li>
+                <li><a href="Novitech/projects.html">PROJECTS</a></li>
+                <li><a href="Novitech/training.html">TRAINING</a></li>
+                <li><a href="Novitech/contact us.html">CONTACT US</a></li>
+            </ul>
+        </div>
+       
+        <div id="banner">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="image/machine.jpg"> </div>
+                  
+                  <div class="swiper-slide"><img src="image/Robotic.jpg"> </div>
+                  
+                  <div class="swiper-slide"><img src="image/drone.jpeg"> </div>
+                  
+                  <div class="swiper-slide"><img src="image/dronefly.jpg"> </div>
+                  
+                  
+                </div>
+                
+                <div class="swiper-pagination"></div>
+              
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              
+              </div>
+            </div>
+
+            <div class="graph">
+                <p class="gpara">WHAT MAKES US DIFFERENT</p>
+                <br>
+                <h1 style=" text-align: center;">ABOUT <span style="color: green;">US</span></h1>
+                <div class="Utilities">
+                    <p>NoviTech is a technology company specialized in Product Engineering with main focus to industries - Automotive and Robotics, Industrial Electronics, High Tech and Utilities.</p>
+                    <ul>
+                        <li>Technology</li>
+                        <li>Production</li>
+                        <li>Innovations</li>
+                        <li>Execution</li>
+                    </ul>
+                </div>
+                <div class="graf">
+                    <p>aincjca</p>
+                </div>
+        </div>
+
+       
+
+
+
+        
+       
+    
+    </div>
+
+    <script src="./bootstrap/assets/js/jquery min.js"></script>
+    <script src="./bootstrap/assets/js/bootstrap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <script>
+        
+        const swiper = new Swiper('.swiper', {
+            autoplay: {
+                delay:2000,
+                disableOnInteraction:false,
+            },
+  loop: true,
+
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+});
+    </script>
+
+</body>
+</html>
